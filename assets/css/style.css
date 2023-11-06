@@ -1,0 +1,59 @@
+.section_contacts{
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    width: 16em;
+    border: solid gray;
+}
+
+
+.perfil_img{
+border-radius: 50%;
+width: 70px;
+height: 70px;
+display: flex;
+flex-direction: column;
+}
+
+
+.nuevo-chat {
+    background-color: blueviolet;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.perfil{
+    padding-right: 20px;
+    text-align: center;
+    flex-direction: row;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
+.messages{
+    padding-left: 15px;
+}
+
+.section_principal{
+    display: flex;
+    text-align: center ;
+    flex-direction: column;
+    justify-content: center ;
+    padding-left: 350px;
+}
+
+.iconos{
+    display: flex;
+    flex-direction: row;
+    align-items: first baseline;
+    margin-top: 20px;
+    padding-left: 10px;
+}
